@@ -1,12 +1,26 @@
 body{
     background-color: #fec356;
+    padding: 5px 200px;
 }
 
 .contenedor{
     background-color: white;
-    /* display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh; */
+    padding: 10px 30px;
+}
+.contenido-principal{
+    display: flex;
+}
+
+.menu{
+    border-style: groove;
+    width: 200px;
+}
+
+.card{
+    border-style: groove;
+
+}
+
+.card h2{
+    background-color: #fec356;
 }
