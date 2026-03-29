@@ -6,21 +6,53 @@ body{
 .contenedor{
     background-color: white;
     padding: 10px 30px;
+    margin: 0 auto;
 }
 .contenido-principal{
     display: flex;
+    justify-content: ;
 }
 
 .menu{
     border-style: groove;
     width: 200px;
 }
+.menu h3{
+    padding: 10px 15px;
+    margin: 0;
+    border-bottom: solid;
+    border-bottom-width: 1px;
+}
+.menu-contenido{
+    margin-top: 10px;
+}
 
 .card{
     border-style: groove;
-
+    /* padding-bottom: 180px; */
+    /* margin-left: 250px; */
+    /* padding-left: 250px; */
 }
 
 .card h2{
     background-color: #fec356;
+}
+
+.card-img{
+    display: flex;
+    justify-content: start;
+    padding-left: ;
+
+}
+.card-img p{
+    /* margin: 0 auto; */
+    /* width: 100%; */
+}
+
+img{
+    width: 100%;
+}
+
+.contenido-texto{
+    padding-right: ;
 }
