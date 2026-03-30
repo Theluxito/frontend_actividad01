@@ -29,28 +29,40 @@ body{
 
 .card{
     border-style: groove;
-    /* padding-bottom: 180px; */
+    margin-bottom: 90px;
+    padding-bottom: 90px;
+    background-color: #f4f3f4;
     /* margin-left: 250px; */
     /* padding-left: 250px; */
 }
 
 .card h2{
     background-color: #fec356;
+    padding: 10px 0;
 }
 
 .card-img{
     display: flex;
-    justify-content: start;
-    padding-left: ;
+    align-items: center;
+    white-space: nowrap;
 
 }
 .card-img p{
-    /* margin: 0 auto; */
-    /* width: 100%; */
+    margin: 0 auto;
+    margin-left: 3px;
+    flex-basis: 40%;
+    text-align: center;
+}
+p{
+    line-height: 25px;
+    font-size: 17px;
 }
 
 img{
     width: 100%;
+}
+.img{
+    flex-basis: 60%;
 }
 
 .contenido-texto{
